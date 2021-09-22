@@ -1,0 +1,90 @@
+.package {
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  align-items: center;
+  background-color: rgb(63, 62, 62);
+  width: 350px;
+  min-height: 300px;
+}
+.package_details {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #d9dbdb;
+}
+.package_title {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #56ccf2;
+}
+.package_description {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+.MuiChip-root {
+  background-color: #118fb9 !important;
+  color: white !important;
+  font-weight: 800 !important;
+  font-size: 15px !important;
+  padding: 20px 5px !important;
+}
+.package_button {
+  width: 200px;
+  font-weight: 500;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 1024px) {
+  .event {
+    width: 380px;
+    height: 250px;
+  }
+  .event_title {
+    font-size: 23px;
+  }
+  .event_description,
+  .event_date {
+    font-size: 13px;
+  }
+  .event_button {
+    font-size: 13px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .event {
+    width: 350px;
+    height: 220px;
+  }
+  .event_title {
+    font-size: 21px;
+  }
+  .event_description,
+  .event_date {
+    font-size: 11px;
+  }
+  .event_button {
+    font-size: 11px !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .event {
+    width: 300px;
+    height: 200px;
+  }
+  .event_title {
+    font-size: 19px;
+  }
+  .event_description,
+  .event_date {
+    font-size: 10px;
+  }
+  .event_button {
+    font-size: 10px !important;
+  }
+}

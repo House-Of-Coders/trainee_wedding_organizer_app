@@ -1,0 +1,33 @@
+.vendorrow {
+  width: 97%;
+  margin: 10px auto;
+  padding: 20px 30px;
+  z-index: 1;
+}
+.vendorrow_title {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: white;
+  border-bottom: 1px solid white;
+}
+.vendorrow_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+}
+
+@media screen and (max-width: 1250px) {
+  .vendorrow_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .vendorrow_container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1rem;
+  }
+}

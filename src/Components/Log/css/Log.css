@@ -1,0 +1,34 @@
+.log {
+  width: 100%;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-gap: 20px;
+  color: white;
+}
+.field {
+  height: fit-content;
+  padding: 20px;
+}
+.bookingsbox {
+  grid-column: 1/7;
+}
+.suggestedvendorsbox {
+  grid-column: 1/10;
+}
+.calenderbox {
+  grid-column: 7/10;
+}
+.field_header {
+  font-size: 23px;
+  padding: 10px 0px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid white;
+}
+
+@media screen and (max-width: 1024px) {
+  .log {
+    display: flex;
+    flex-direction: column;
+  }
+}

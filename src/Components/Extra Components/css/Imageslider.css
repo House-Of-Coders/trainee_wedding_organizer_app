@@ -1,0 +1,103 @@
+.slide_container {
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+.imageslide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  mask-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(0, 2, 2, 0));
+  opacity: 0;
+  transition: 0.6s ease-out;
+}
+.activeslide {
+  opacity: 1;
+  transition: 0.6s ease-in;
+}
+.image {
+  width: 100%;
+  height: 100%;
+}
+.arrow {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.arrow_div {
+  width: 100%;
+  padding: 20px 0;
+  text-align: end;
+  color: white;
+  background-color: rgb(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+.arrow_left {
+  left: 0;
+}
+.arrow_right {
+  right: 0;
+}
+.left_arrow_div {
+  border-radius: 0px 5px 5px 0px;
+}
+.right_arrow_div {
+  border-radius: 5px 0px 0px 5px;
+}
+.arrow_icon {
+  font-size: 30px !important;
+}
+#non-current {
+  opacity: 0.6 !important;
+}
+#current {
+  transform: scale(1.5) !important;
+}
+.slinenocontainer {
+  position: absolute;
+  bottom: 0;
+  left: 45%;
+  width: fit-content;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  padding: 15px 0px;
+}
+.round {
+  color: white !important;
+  font-size: 20px !important;
+}
+.MuiSvgIcon-root {
+  margin-left: 10px;
+}
+.round:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+  .slide_container {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .slide_container {
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .slide_container {
+    height: 280px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .slide_container {
+    height: 250px;
+  }
+}

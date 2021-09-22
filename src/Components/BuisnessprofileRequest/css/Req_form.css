@@ -1,0 +1,76 @@
+.buisnessprofilerequest_form_01 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.MuiAlert-root {
+  width: 100% !important;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 12px !important;
+}
+.form_field_group {
+  width: 100%;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.MuiAvatar-root {
+  width: 100px !important;
+  height: 100px !important;
+}
+.MuiFormControl-root {
+  width: 100%;
+}
+#logo {
+  margin-left: 20px;
+}
+.MuiFormLabel-root {
+  font-size: 13px !important;
+}
+.requestdoc_name {
+  font-size: 12px;
+  margin-left: 10px;
+}
+.multifileinput {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+#multifileinput_left {
+  flex: 0.28 !important;
+}
+.multifileinput_right {
+  flex: 0.7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.multifileinput_buttons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#multifileinput_button {
+  flex: 0.48 !important;
+}
+.secondary {
+  font-size: 10px;
+}
+.button_container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.stepper_button {
+  flex: 0.4;
+}

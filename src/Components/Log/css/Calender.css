@@ -1,0 +1,89 @@
+.fc-view-harness {
+  height: 400px !important;
+}
+.fc-toolbar-title {
+  font-size: 16px !important;
+}
+.fc-icon {
+  font-size: 13px !important;
+}
+.fc-col-header-cell-cushion {
+  font-size: 13px !important;
+  padding: 5px 10px !important;
+}
+.fc-daygrid-day-frame {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+.fc-daygrid-day-number {
+  padding: 4px 0px 0px 0px !important;
+}
+.fc-daygrid-day-events {
+  min-height: 2px !important;
+}
+
+.calender {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.calender_event_container {
+  width: 100%;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: rgb(63, 62, 62);
+  color: #e0dede;
+}
+.eventeditor {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.eventeditor > * {
+  width: 100%;
+}
+.eventeditor_selecteddate {
+  color: #56ccf2;
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.eventeditor_selecteddatecontent {
+  text-align: left;
+  margin-bottom: 15px;
+}
+.add_button {
+  width: 150px !important;
+  background-color: #2796bb;
+  margin-top: 0px !important;
+  margin-bottom: 15px;
+}
+.delete_button {
+  width: 150px !important;
+  background-color: #2796bb;
+  margin-top: 0px !important;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+  .calender {
+    display: flex;
+    flex-direction: row;
+  }
+  .calender_event_container {
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 670px) {
+  .calender {
+    display: flex;
+    flex-direction: column;
+  }
+  .calender_event_container {
+    margin-top: 20px;
+  }
+}

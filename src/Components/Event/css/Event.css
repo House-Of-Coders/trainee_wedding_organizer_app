@@ -1,0 +1,27 @@
+.eventscreen_content {
+  padding: 10px 15px;
+}
+.eventscreen_field_description,
+.eventscreen_field_date {
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: 600;
+  color: white;
+  font-stretch: semi-expanded;
+  margin: 10px 0px;
+}
+.eventscreen_field {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px 30px;
+}
+.eventscreen_field_header {
+  text-align: left;
+  font-size: 25px;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  color: white !important;
+  border-bottom: 1px solid white;
+}

@@ -1,0 +1,168 @@
+.auth_container {
+  background: url("https://networkustad.com/wp-content/uploads/2021/05/Wedding-Planning.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  max-height: fit-content;
+  position: relative;
+}
+.auth_container::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+.form_container {
+  z-index: 10;
+  width: 500px;
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 10px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form_container_top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+}
+.form_container_top_logo {
+  height: 70px;
+  object-fit: contain;
+}
+.form_container_top_title {
+  margin-top: 5px;
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 800;
+}
+.form_container_top_text {
+  margin-top: 5px;
+  font-size: 14px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 100%;
+  text-align: center;
+}
+.MuiAlert-icon {
+  color: white !important;
+  font-weight: 800 !important;
+  font-size: 20px !important;
+}
+.MuiAlert-message {
+  font-weight: 800 !important;
+  font-size: 13px !important;
+}
+.MuiAlert-root {
+  width: 90% !important;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 800 !important;
+  font-size: 18px !important;
+  color: white !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+#success {
+  background-color: rgb(13, 156, 13) !important;
+}
+#error {
+  background-color: rgb(224, 35, 35) !important;
+}
+.auth_form {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form_field_group {
+  width: 100%;
+  margin-bottom: 7px;
+}
+.MuiFormControl-root {
+  width: 100%;
+}
+.MuiFormLabel-root {
+  font-size: 14px !important;
+}
+.radio_field_group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px auto;
+}
+.form_radio_group {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.form_radio_label {
+  font-size: 14px;
+  margin-left: 8px;
+  color: rgba(0, 0, 0, 0.54);
+}
+.form_extra {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 15px 0px;
+  color: #0a1633;
+  font-size: 14px;
+}
+.form_extra span {
+  margin-left: 10px;
+}
+.profileimagecontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 0px;
+}
+.profileimage {
+  font-size: 40px !important;
+}
+.profileimagefile {
+  display: none;
+}
+.profile_image_button {
+  width: 150px !important;
+  font-size: 11px;
+  font-weight: 600;
+}
+.MuiAvatar-root {
+  width: 80px !important;
+  height: 80px !important;
+}
+
+@media screen and (max-width: 600px) {
+  .form_container {
+    z-index: 10;
+    min-width: 100%;
+    max-width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .auth_container {
+    height: 100%;
+  }
+}

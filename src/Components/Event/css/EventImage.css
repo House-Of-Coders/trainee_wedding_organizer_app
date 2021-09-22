@@ -1,0 +1,23 @@
+.eventscreen_image {
+  width: 500px;
+  object-fit: contain;
+  margin: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .eventscreen_image {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .eventscreen_image {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .eventscreen_image {
+    width: 300px;
+  }
+}

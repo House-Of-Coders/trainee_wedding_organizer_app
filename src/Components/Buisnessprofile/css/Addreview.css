@@ -1,0 +1,16 @@
+#dialog {
+  border-radius: 0 !important;
+}
+.cancel_button {
+  margin-left: 20px;
+}
+.review_rating {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start !important;
+}
+.review_rating_label {
+  margin-bottom: 15px;
+  margin-top: 20px;
+}

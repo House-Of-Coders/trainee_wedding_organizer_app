@@ -1,0 +1,34 @@
+.bookings_selectors_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.selector_button {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  border-radius: 15px;
+}
+.selector_button:hover {
+  cursor: pointer;
+}
+#selector_button_icon {
+  padding: 0px !important;
+  margin-right: 10px !important;
+}
+.reject {
+  background-color: rgb(197, 48, 48);
+}
+.pending {
+  background-color: rgb(211, 142, 15);
+}
+.accept {
+  background-color: rgb(4, 141, 15);
+}
+.all {
+  background-color: rgb(63, 62, 62);
+}

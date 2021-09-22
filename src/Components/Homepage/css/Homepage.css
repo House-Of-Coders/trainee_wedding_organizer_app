@@ -1,0 +1,43 @@
+.home {
+  z-index: -1;
+}
+.home_image {
+  width: 100%;
+  height: 600px;
+  z-index: -1;
+  margin-bottom: -15vw;
+  mask-image: linear-gradient(
+    to bottom,
+    rgb(255, 255, 255),
+    rgba(78, 78, 78, 0)
+  );
+  z-index: 0;
+}
+.homepage_row {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1000px) {
+  .home_image {
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .home_image {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .home_image {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .home_image {
+    height: 250px;
+  }
+}

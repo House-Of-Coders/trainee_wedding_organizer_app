@@ -1,0 +1,11 @@
+.form_field_group_feedback {
+  font-size: 12px;
+  color: rgb(180, 14, 14);
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+.form_field_group_feedback_icon {
+  margin-right: 5px;
+}

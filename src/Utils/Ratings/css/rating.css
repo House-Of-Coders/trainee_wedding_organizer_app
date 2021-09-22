@@ -1,0 +1,10 @@
+.rating_star {
+  font-size: 1.2vw !important;
+  color: #e6bb31 !important;
+  margin: 0 !important;
+}
+.rating {
+  display: flex;
+  align-items: center;
+  margin-right: 0.5vw;
+}
